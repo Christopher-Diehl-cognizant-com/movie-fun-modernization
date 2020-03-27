@@ -1,0 +1,8 @@
+apply from: "../../java.gradle"
+
+dependencies {
+//	compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
+//	compile group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.0'
+	compile "org.apache.tika:tika-core:1.14"
+	compile "com.amazonaws:aws-java-sdk:1.11.74"
+}

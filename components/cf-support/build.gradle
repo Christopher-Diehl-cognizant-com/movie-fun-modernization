@@ -1,0 +1,7 @@
+apply from: "../../java.gradle"
+dependencies {
+//	compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
+//	compile group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.0'
+	compile "com.fasterxml.jackson.core:jackson-databind:2.8.4"
+	testCompile "junit:junit:$junitVersion"
+}
